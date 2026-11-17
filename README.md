@@ -13,3 +13,6 @@ server with `dock login <url>`; `dock version` says when the two differ.
 release, with the SHA-256 of each build taken from the release's signed
 `SHA256SUMS`. Changes made here by hand are overwritten; open issues and
 pull requests on [tempoDock](https://github.com/NordTempo/tempoDock).
+
+This tap is MIT licensed (`LICENSE`); the dock CLI it installs is licensed
+under the [AGPL-3.0](https://github.com/NordTempo/tempoDock/blob/main/LICENSE).
