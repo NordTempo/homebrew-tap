@@ -4,28 +4,28 @@
 class Dock < Formula
   desc "Deploy apps, databases and agents to servers you own"
   homepage "https://dock.nordtempo.com"
-  version "0.75.0"
+  version "0.76.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/NordTempo/tempoDock/releases/download/v0.75.0/dock-cli-darwin-arm64"
-      sha256 "bbfc217be2b814c9a553e5eb61fc8c4ca3195f631306dc304fc4bb0ebc058697"
+      url "https://github.com/NordTempo/tempoDock/releases/download/v0.76.0/dock-cli-darwin-arm64"
+      sha256 "9428a3f412efd75e5ded014bafe2c8e340dea7da690cabbb68fa46ff9446ce96"
     end
     on_intel do
-      url "https://github.com/NordTempo/tempoDock/releases/download/v0.75.0/dock-cli-darwin-amd64"
-      sha256 "19c1d8c5bf13fc876255d5509d52d375ba6f786f745548eb9e7ce0d10cb84689"
+      url "https://github.com/NordTempo/tempoDock/releases/download/v0.76.0/dock-cli-darwin-amd64"
+      sha256 "f9277f8182eb8ffb62cd827e2908b3646470f636f657cbcca8428dd8812a5a5e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/NordTempo/tempoDock/releases/download/v0.75.0/dock-cli-linux-arm64"
-      sha256 "1b927c3310232073b7a5dd0efac86e3236ed6adf484f57bb9b51a4747f234d3f"
+      url "https://github.com/NordTempo/tempoDock/releases/download/v0.76.0/dock-cli-linux-arm64"
+      sha256 "1e08462c9bef29bd47944dfe4de86fa2002a9544cf9416135afa995f7402ac50"
     end
     on_intel do
-      url "https://github.com/NordTempo/tempoDock/releases/download/v0.75.0/dock-cli-linux-amd64"
-      sha256 "9ec79116d6e0a52d5b6c3e5db5d3b8d6ede9b0c2933062f2b4d778805c7192dc"
+      url "https://github.com/NordTempo/tempoDock/releases/download/v0.76.0/dock-cli-linux-amd64"
+      sha256 "6368c4dbd087471eb736c45115278c4d129150c4c0eecb4f70ae887478a46d08"
     end
   end
 
